@@ -1,0 +1,15 @@
+Flat Image Quality Tagging
+
+Problem Statement:
+	Classify flat Images into two categories – Good and Bad. Thus ensure good quality of images on the housing website.
+
+Intuition:
+	1. Poor flat images can be a serious turn off for users hunting houses on our website and can lead to a very bad experience. We define an image as bad based on the following features of the flat:
+	• Quality of walls - Some flats have been observed to have very bad condition of walls. In some cases the walls are soiled with stain marks, whereas in other cases the wall paint is damaged, so much so that even bricks are visible. Some flats have walls with stains of water seepage, fungus growth on walls, etc.
+	
+	2. We want to be able to identify all such images from our database by classifying all images in our database into two categories – Good or Bad
+	
+	3. We plan to build a machine-learning model, which could be trained to perform the classification task by supervised learning. 
+	4. The model shall be trained on a dataset, which will be created by manually tagging flat images as good or bad.
+	
+	5. We propose to use OpenCV descriptors of an image as input feature vector, and the task of the model would be to classify image into one of the two categories.
