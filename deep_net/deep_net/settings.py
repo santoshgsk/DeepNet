@@ -20,7 +20,7 @@ MEDIA_URL = '/media/'
 # See https://docs.djangoproject.com/en/1.6/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'i-8n&m=+q_=si8dxq=s82b6za5dq8!wc1$@69brdv6wp#tc!0_'
+SECRET_KEY = ''
 
 
 ALLOWED_HOSTS = ['*']
